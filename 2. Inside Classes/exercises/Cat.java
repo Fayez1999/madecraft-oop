@@ -38,6 +38,27 @@ public class Cat {
 		// 2. Get the Cat to print it's name
 
 		// 3. Kill the Cat!
+		
+		Cat fluffy = new Cat("Fluffy");
+		Cat ryan = new Cat("Ryan");
+		fluffy.meow();
+		System.out.println(fluffy.name);
+		
+		int i = 9;
+		
+		while (i > 0) {
+			fluffy.kill();
+			i--;
+		}
+		
+		System.out.println("\nSecond Death\n");
+		
+		int j = 9;
+		while (j > -1) {
+			ryan.kill();
+			j--;
+		}
+		
 
 	}
 }
